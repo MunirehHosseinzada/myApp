@@ -1,0 +1,30 @@
+<Alloy>
+	<Window id="aboutWin" title="زموږ په اړه">
+		<ScrollView id="holeContainer">
+			<ImageView id="topImage"></ImageView>
+			<View id="underIcon">
+				<ImageView id="icon"></ImageView>
+			</View>
+			<CardView id="bottomView">
+				<Label id="appDescrib">پښتو لغت د پشتو لپاره د پشتو لغت دی، چې په هرات کې د کمپیوټر ساینس د زده کونکو کمیټې لخوا ډیزاین شوی. دا غوښتنلیک د کارن لپاره خورا آنلاین لغاتونه وړاندې کوي. دا ایپ خورا ګټور او کارول اسانه دی</Label>
+				<Label class="title">پرمختلونکیان:</Label>
+				<View id="firstLine"></View>
+				<Label id="developers">منیره حسین زاده، سمیعه محمدی، احسان حصین، حسیب مدثر، پریسا صالحی، فرشته عباسی، حسنا امین نورزی، افسانه آرسین</Label>
+				<Label class="title">موږ سره اړیکه ونیسئ:</Label>
+				<View id="secondLine"></View>
+				<View id="contacts">
+					<CardView class="tw" onClick="tweet">
+						<Label class="fontawesome" text="\uf099" />
+					</CardView>
+					<CardView class="tw" onClick="email">
+						<Label class="fontawesome" text="\uf0e0" />
+					</CardView>
+					<CardView class="tw" onClick="facebook">
+						<Label class="fontawesome" text="\uf09a" />
+					</CardView>
+				</View>
+			</CardView>
+		</ScrollView>
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"></ActionBar>
+	</Window>
+</Alloy>

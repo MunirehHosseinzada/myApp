@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="Win">
+		<ScrollView id="scrollView">
+			<View id="wordView">
+				<Label id="wordLabel"></Label>
+				<View id="iconsView">
+					<CardView id="Share">
+						<Label id="share" onClick="shareItem"></Label>
+					</CardView>
+					<CardView id="favoriteIcon">
+						<Label id="favorite" onClick="clickedFavorite"></Label>
+					</CardView>
+				</View>
+			</View>
+			<Label id="meanLabel"></Label>
+			<View id="meanWordView"></View>
+		</ScrollView>
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"></ActionBar>
+	</Window>
+</Alloy>

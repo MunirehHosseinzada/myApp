@@ -1,0 +1,85 @@
+"#Win": {
+	title: 'پښتو دیکښنری',
+	backgroundColor: '#ffffff'
+}
+
+"#meanLabel":{
+	text: 'معنی: ',
+	textAlign: 'right',
+	right: '15dp',
+	color: '#09558e',
+	font:{
+		fontSize: '25dp',
+		fontFamily: 'majalla.ttf'
+	}
+}
+"#scrollView":{
+	top: 0,
+	height:Titanium.UI.SIZE,
+	width:Titanium.UI.FILL,
+	layout: 'vertical'
+}
+"#wordView":{
+	top: 0,
+	width:Titanium.UI.FILL,
+	height: '94dp',
+	backgroundColor: '#f0f3f8'
+}
+"#wordLabel":{
+	textAlign: 'right',
+	right: '20dp',
+	font:{
+		fontSize: '28dp',
+		fontFamily: 'majalla.ttf'
+	},
+	color: 'black',
+	top: '15dp'
+}
+
+"#meanWordView":{
+	height:Titanium.UI.SIZE,
+	width:Titanium.UI.FILL,
+	layout: 'vertical',
+	top: 10,
+	backgroundColor: '#ffffff'
+}
+
+"#Share":{
+	height: '30dp',
+	width: '30dp',
+	borderRadius: 15,
+	backgroundColor: '#09558e'
+}
+"#favoriteIcon":{
+	height: '30dp',
+	width: '30dp',
+	borderRadius: 15,
+	backgroundColor: '#09558e',
+	left: '8dp'
+}
+
+"#iconsView":{
+	height:Titanium.UI.SIZE,
+	width:Titanium.UI.SIZE,
+	layout: 'horizontal',
+	bottom: '10dp',
+	left: '22dp'
+}
+"#favorite":{
+	font:{
+		fontFamily: 'material_icons.ttf',
+		fontSize: '18dp'
+	},
+	textAlign: 'center',
+	color: '#ffffff'
+}
+"#share":{
+	font:{
+		fontFamily: 'material_icons.ttf',
+		fontSize: '18dp'
+	},
+	textAlign: 'center',
+	color: '#ffffff',
+	text: 'share'
+}
+

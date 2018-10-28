@@ -1,0 +1,66 @@
+<Alloy>
+	<Window title="پښتو دیکښنری">
+		<DrawerLayout id="myDrawer">
+			<LeftView>
+				<View backgroundColor="white" layout="vertical">
+					<View id="topView">
+						<ImageView id="educationIMG"></ImageView>
+						<ImageView id="icon"></ImageView>
+					</View>
+					<View id"bottomView">
+						<View class="outer" onClick="openFavPage">
+							<Label class="lbls">خوښه</Label>
+							<CardView class="iconsContainer">
+								<Label text="favorite" class="material_icon"></Label>
+							</CardView>
+						</View>
+						<View class="outer" onClick="openAboutPage">
+							<Label class="lbls">زموږ په اړه</Label>
+							<CardView class="iconsContainer">
+								<Label text="person" class="material_icon"></Label>
+							</CardView>
+						</View>
+						<View class="outer" onClick="Exit">
+							<Label class="lbls">وتون</Label>
+							<CardView class="iconsContainer">
+								<Label text="phonelink_erase" class="material_icon"></Label>
+							</CardView>
+						</View>
+					</View>
+				</View>
+			</LeftView>
+			<CenterView>
+				<View id="holeContainer">
+					<View id="searchContainer">
+						<CardView id="searchBar">
+							<View id="searchClearContainer">
+								<View id="clearButton" onClick="clearTxtField">
+									<Label class="material_icon" text="clear" id="clear"></Label>
+								</View>
+							</View>
+							<View id="searchLabelContainer">
+								<TextField id="textField" onChange="findWords"></TextField>
+							</View>
+							<View id="searchIconContainer">
+								<Label class="material_icon" text="search" id="search"></Label>
+							</View>
+						</CardView>
+					</View>
+					<View id="listViewContainer">
+						<ListView defaultItemTemplate="template" width="90%" separatorHeight="2dp" onItemclick="openSecondPage">
+							<Templates>
+								<ItemTemplate name="template">
+									<View id="lblContainer">
+										<Label bindId="meaning" id="meaninglbl" />
+									</View>
+								</ItemTemplate>
+							</Templates>
+							<ListSection id="section"></ListSection>
+						</ListView>
+					</View>
+				</View>
+			</CenterView>
+		</DrawerLayout>
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeDrawer"></ActionBar>
+	</Window>
+</Alloy>

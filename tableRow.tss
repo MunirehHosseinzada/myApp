@@ -1,0 +1,26 @@
+
+"#meanWordView":{
+	width:Titanium.UI.FILL,
+	height: '55dp',
+	layout: 'vertical'
+}
+
+
+"#wordMeanLabel":{
+	textAlign: 'right',
+	font:{
+		fontSize: '22dp',
+		fontFamily: 'majalla.ttf'
+	},
+	color: '#686868',
+	right: '30dp',
+	top: 6
+}
+
+"#lineView":{
+	height: '0.4dp',
+	width: '93%',
+	backgroundColor: 'lightgray',
+	top: '10dp'
+}
+

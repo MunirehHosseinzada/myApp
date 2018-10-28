@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="favoriteWin" onFocus="findFavorites" title="خوښه">
+		<ScrollView id="mainContainer">
+			<ListView defaultItemTemplate="template" width="90%" separatorHeight="2dp" onItemclick="openSecondPage">
+				<Templates>
+					<ItemTemplate name="template">
+						<View id="lblContainer">
+							<Label bindId="meaning" id="meaninglbl" />
+						</View>
+					</ItemTemplate>
+				</Templates>
+				<ListSection id="section"></ListSection>
+			</ListView>
+		</ScrollView>
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"></ActionBar>
+	</Window>
+</Alloy>

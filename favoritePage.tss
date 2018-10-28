@@ -1,0 +1,20 @@
+"#mainContainer": {
+	backgroundColor: '#f7faff',
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}
+
+"#lblContainer": {
+	height: '50dp',
+	width: '95%',
+	// backgroundColor: '#ffffff',
+	borderRaduis: 50,
+	top: '10dp'
+}
+
+"#meaninglbl": {
+	color: '#686868',
+	font: {
+		fontSize: '20dp'
+	}
+}

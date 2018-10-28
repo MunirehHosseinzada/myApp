@@ -1,0 +1,107 @@
+"#holeContainer": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundColor: '#e0ecff',
+	layout: 'vertical'
+}
+
+"#topImage": {
+	image: '/image/top.png',
+	width: Ti.UI.FILL
+}
+
+"#underIcon": {
+	height: '150dp',
+	width: '150dp',
+	borderRadius: 100,
+	backgroundColor: 'white',
+	top: '-90dp'
+}
+
+"#icon": {
+	image: '/image/appicon.png',
+	height: '90%',
+	width: '90%'
+}
+
+"#bottomView": {
+	height: '400dp',
+	width: '90%',
+	// backgroundColor: 'green',
+	top: '10dp',
+	layout: 'vertical'
+}
+
+"#appDescrib": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	color: '#686868',
+	font: {
+		fontSize: '20dp'
+	},
+	textAlign: 'center',
+	top: '10dp'
+}
+
+".title": {
+	color: '#09558e',
+	font: {
+		fontSize: '23dp',
+	},
+	top: '10dp',
+	// backgroundColor: 'yellow'
+	textAlign: 'right',
+	right: '10dp'
+}
+
+"#firstLine": {
+	height: '1.5dp',
+	width: '95%',
+	backgroundColor: '#09558e',
+	top: '8dp'
+}
+
+"#developers": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	color: '#686868',
+	font: {
+		fontSize: '20dp'
+	},
+	textAlign: 'right',
+	top: '10dp'
+}
+
+"#secondLine": {
+	height: '1.5dp',
+	width: '95%',
+	backgroundColor: '#09558e',
+	top: '8dp'
+}
+
+'#contacts': {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	// backgroundColor: 'yellow',
+	top: '10dp',
+	layout: 'horizontal'
+}
+
+".tw":{
+	height: '37dp',
+	width: '37dp',
+	backgroundColor: '#09558e',
+	borderRadius: 18.5,
+	top: '4dp',
+	bottom: '7dp',
+	left: '15dp'
+}
+
+".fontawesome":{
+	font:{
+		fontFamily: 'font_awesome.ttf',
+		fontSize: '21dp'
+	},
+	textAlign: 'center',
+	color: '#ffffff'
+}

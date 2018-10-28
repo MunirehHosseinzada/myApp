@@ -1,0 +1,142 @@
+"#holeContainer": {
+	layout: 'vertical'
+}
+
+"#searchContainer": {
+	height: '70dp',
+	width: '100%',
+	backgroundColor: '#c1c1c1'
+}
+
+"#searchBar": {
+	height: '70%',
+	width: '95%',
+	backgroundColor: '#fffcdd',
+	borderRadius: 20,
+	layout: 'horizontal'
+}
+
+"#searchIconContainer": {
+	height: Ti.UI.FILL,
+	width: '15%'
+}
+
+"#searchLabelContainer": {
+	height: Ti.UI.FILL,
+	width: '70%'
+}
+
+"#searchClearContainer": {
+	height: Ti.UI.FILL,
+	width: '15%'
+}
+
+"#clearButton": {
+	height: '25dp',
+	width: '25dp',
+	backgroundColor: '#09558e',
+	borderRadius: 12
+}
+
+'.material_icon': {
+	font: {
+		fontFamily: Alloy.Globals.material_icons,
+		fontSize: '30dp'
+	},
+	color:"#09558e"
+}
+
+"#clear": {
+	font: {
+		fontSize: '15sp',
+		fontWeight: 'bold'
+	},
+	color: 'white'
+}
+
+"#search": {
+	color: '#09558e',
+	font: {
+		fontSize: '30sp',
+		fontWeight: 'bold'
+	}
+}
+
+"#textField": {
+	width: '100%',
+	hintText: 'لټون',
+	color: 'black',
+	textAlign: 'right',
+	font: {
+		fontSize: '25dp'
+	}
+}
+
+"#listViewContainer": {
+	backgroundColor: '#f7faff',
+	// height: '88%',
+	width: '100%'
+}
+
+"#lblContainer": {
+	height: '50dp',
+	width: '95%',
+	// backgroundColor: '#ffffff',
+	borderRaduis: 50,
+	top: '10dp'
+}
+
+"#meaninglbl": {
+	color: '#686868',
+	font: {
+		fontSize: '20dp'
+	},
+	right: '10dp'
+}
+
+'#topView': {
+	height: '250dp',
+	width: Ti.UI.FILL,
+	backgroundColor: 'pink',
+	top: '0dp'
+}
+
+"#educationIMG": {
+	image: '/image/education.jpg',
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}
+
+"#icon": {
+	image: '/image/appicon.png',
+	height: '150dp',
+	width: '150dp'
+}
+
+"#bottomView": {
+	backgroundColor: '#09558e',
+	layout: 'vertical'
+}
+
+".outer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	right: '15dp',
+	layout: 'horizontal',
+	top: '15dp'
+}
+
+".iconsContainer": {
+	backgroundColor: 'white',
+	height: '50dp',
+	width: '50dp',
+	borderRadius: 25,
+	left: '10dp'
+}
+
+'.lbls': {
+	font: {
+		fontSize: '20dp'
+	},
+	color: 'white'
+}
